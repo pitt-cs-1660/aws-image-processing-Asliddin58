@@ -240,4 +240,3 @@ jobs:
           image-uri: ${{ steps.exif-build-image.outputs.image }}  # ECR image URI from previous step
           role: ${{ env.AWS_LAMBDA_ROLE_ARN }}
           publish: true
-
